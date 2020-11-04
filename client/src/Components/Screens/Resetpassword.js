@@ -42,7 +42,7 @@ const Resetpassword=()=>{
             <div className="card auth-card input-field">
                 <h2 className="card-heading">Lovegram</h2>
                 <input placeholder="E-mail" type="email" className="validate" value={email} onChange={e=>{setEmail(e.target.value) }} />
-                <button className="btn waves-effect waves-light #c2185b pink darken-2" onClick={()=>{postData()}} >Log-In
+                <button className="btn waves-effect waves-light #c2185b pink darken-2" onClick={()=>{postData()}} >Request Link
                 </button>
 
             </div>

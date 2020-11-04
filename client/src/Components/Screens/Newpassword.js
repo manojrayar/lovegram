@@ -48,7 +48,7 @@ const Newpassword=()=>{
                 <h2 className="card-heading">Lovegram</h2>
                 <input placeholder="Password" type="password" className="validate" value={password} onChange={e=>{setPassword(e.target.value) }} />
                 <input placeholder="Confirm Password" type="password" className="validate" value={cpassword} onChange={e=>{setCPassword(e.target.value) }} />
-                <button className="btn waves-effect waves-light #c2185b pink darken-2" onClick={()=>{postData()}} >Log-In
+                <button className="btn waves-effect waves-light #c2185b pink darken-2" onClick={()=>{postData()}} >Update Password
                 </button>
 
             </div>

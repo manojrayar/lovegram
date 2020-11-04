@@ -66,7 +66,7 @@ router.post('/signup',(req,res)=>{
                                 console.log(res)
                                 })
                         })
-                        res.json({message:"Check your email to verify your account "})
+                        res.json({message:"Check your email to verify your account"})
                     })
                     .catch(err=>{
                         console.log(err)
